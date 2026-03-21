@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "471348354954",
+    "project_id": "smart-accident-detection-99df6",
+    "storage_bucket": "smart-accident-detection-99df6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471348354954:android:525fb5fd2e50246e30b273",
+        "android_client_info": {
+          "package_name": "com.example.smart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyYP2obsMl0WZJ5IR8T6rVjNQRl9umpN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
