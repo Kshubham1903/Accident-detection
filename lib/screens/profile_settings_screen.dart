@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../services/emergency_contacts_repository.dart';
-import '../utils/navigation.dart';
-import '../widgets/app_bottom_nav.dart';
+// ...existing code...
 
 class ProfileSettingsScreen extends StatefulWidget {
   const ProfileSettingsScreen({super.key});
@@ -177,14 +176,6 @@ class _ProfileSettingsScreenState extends State<ProfileSettingsScreen> {
               ),
             ],
           ),
-        ),
-      ),
-      bottomNavigationBar: AppBottomNav(
-        selectedIndex: 3,
-        onDestinationSelected: (index) => navigateFromBottomTab(
-          context,
-          currentIndex: 3,
-          targetIndex: index,
         ),
       ),
     );

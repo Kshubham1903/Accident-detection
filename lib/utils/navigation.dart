@@ -11,9 +11,12 @@ void navigateFromBottomTab(BuildContext context, {required int currentIndex, req
       Navigator.pushNamed(context, '/first-aid-guide');
       break;
     case 2:
-      Navigator.pushNamed(context, '/hospital-recommendation');
+      // Hospitals is now a tab, not a route. Switch tab in MainNavigation instead.
       break;
     case 3:
+      // Activity is now a tab, not a route. Switch tab in MainNavigation instead.
+      break;
+    case 4:
       Navigator.pushNamed(context, '/profile');
       break;
     default:

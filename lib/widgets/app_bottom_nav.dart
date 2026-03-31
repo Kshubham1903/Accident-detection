@@ -22,6 +22,10 @@ class AppBottomNav extends StatelessWidget {
           label: 'Safety',
         ),
         NavigationDestination(
+          icon: Icon(Icons.local_hospital_rounded),
+          label: 'Hospitals',
+        ),
+        NavigationDestination(
           icon: Icon(Icons.access_time_rounded),
           label: 'Activity',
         ),
@@ -33,4 +37,3 @@ class AppBottomNav extends StatelessWidget {
     );
   }
 }
-

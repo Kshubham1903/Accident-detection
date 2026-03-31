@@ -6,6 +6,8 @@ class AppRoutes {
   static const String nearbyAlert = '/nearby-alert';
   static const String profile = '/profile';
   static const String hospitalRecommendation = '/hospital-recommendation';
+  static const String hospitals = '/hospitals';
+  static const String activity = '/activity';
 
   static String? routeForTabIndex(int index) {
     switch (index) {
@@ -14,8 +16,10 @@ class AppRoutes {
       case 1:
         return firstAidGuide;
       case 2:
-        return nearbyAlert;
+        return hospitals;
       case 3:
+        return activity;
+      case 4:
         return profile;
       // Optionally add a case for hospitalRecommendation if you want a tab for it
       default:

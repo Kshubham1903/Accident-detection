@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../navigation/app_routes.dart';
 import '../services/sensor_service.dart';
 import 'accident_screen.dart';
-import '../widgets/app_bottom_nav.dart';
 import '../widgets/custom_button.dart';
 import '../widgets/status_card.dart';
 
@@ -154,14 +153,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           },
         ),
       ),
-      bottomNavigationBar: AppBottomNav(
-        selectedIndex: 0,
-        onDestinationSelected: (index) => navigateFromBottomTab(
-          context,
-          currentIndex: 0,
-          targetIndex: index,
-        ),
-      ),
+      // Remove the bottomNavigationBar from DashboardScreen to avoid duplicate navbars
     );
   }
 }
